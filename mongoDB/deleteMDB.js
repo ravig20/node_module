@@ -1,4 +1,4 @@
-const dbConnectUsers = require("./mongoModule");
+const dbConnectUsers = require("./database");
 const main = async () => {
     let data = await dbConnectUsers();
     let result = await data.deleteOne({

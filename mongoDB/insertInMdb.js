@@ -1,4 +1,4 @@
-const dbConnectUsers = require('./mongoModule.js');
+const dbConnectUsers = require('./database.js');
 
 const inserData = async ()=>{
 

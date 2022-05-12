@@ -2,7 +2,7 @@
 // read data from data base
 // this file will be show you how to use imports files
 
-const db = require("./mongoModule.js");
+const db = require("./database.js");
 
 const main = async () => {
     let usersdata = await dbConnectUsers();

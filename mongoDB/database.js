@@ -1,5 +1,5 @@
 // this is a confrigation file
-// connection
+// connection with data bases
 const { MongoClient } = require('mongodb');
 const url = 'mongodb://localhost:27017';
 const database = 'e-comm';

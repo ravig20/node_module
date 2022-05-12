@@ -3,7 +3,8 @@
 // using promise we handel 
 
 
-let a = 20
+let a = 20;
+let b = 0;
 
 /*
  @ problem

@@ -1,4 +1,4 @@
-const dbConnectUsers = require("./mongoModule");
+const dbConnectUsers = require("./database");
 
 const updatedata = async () => {
     let data = await dbConnectUsers();
