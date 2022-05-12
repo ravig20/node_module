@@ -2,7 +2,8 @@
   "dependencies": {
     "ejs": "^3.1.7",
     "express": "^4.18.1",
-    "mongodb": "^4.5.0"
+    "mongodb": "^4.5.0",
+    "mongoose": "^6.3.3"
   },
   "name": "nodejs",
   "version": "1.0.1",
