@@ -20,14 +20,14 @@ let a = 20
  so how to achive "70" using promises
 */
 
-let waitingData = new Promise((resolve,reject)=>{
-    setTimeout(()=>{
+let waitingData = new Promise((resolve, reject) => {
+    setTimeout(() => {
         resolve(50)
-     },2000);
+    }, 2000);
 })
 
-waitingData.then((Data)=>{
-    b=Data;
-    console.log(a+b);
+waitingData.then((Data) => {
+    b = Data;
+    console.log(a + b);
 
 })
